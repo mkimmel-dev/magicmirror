@@ -1,0 +1,2 @@
+# magicmirror
+magicmirror in python
