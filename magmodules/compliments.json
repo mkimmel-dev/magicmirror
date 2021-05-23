@@ -1,0 +1,79 @@
+{
+  "day": {
+    "compliments": [
+      "looks like it'll be a good day!",
+      "hey there!",
+      "lookin good!",
+      "get after it!",
+      "go get some tacos",
+      "how\u0027s Stitch doing?",
+      "hungry for lunch?",
+      "Yo!"
+    ]
+  },
+  "morning":{
+    "compliments": [
+        "looking good!",
+        "have a good day!",
+        "you're gonna kill it!",
+        "get after it!"
+    ]
+  },
+  "afternoon": {
+    "compliments": [
+      "how was work?",
+      "traffic bad?",
+      "nice to see you again",
+      "grab a beer!",
+      "go chill!",
+      "wanna play games?"
+    ]
+  },
+  "night":{
+    "compliments":[
+        "time to rest",
+        "ready for tomorrow?",
+        "check out what's new on netflix!",
+        "cuddle up!",
+        "get cozy!",
+        "sweatpants time!",
+        "how was dinner?"
+    ]
+  },
+  "clouds": {
+    "compliments": [
+      "don't forget your umbrella!",
+      "kinda grey today",
+      "there's sun behind there somewhere"
+    ]
+  },
+  "sun": {
+    "compliments": [
+      "lookin like a good day to tan",
+      "is the pool open?",
+      "don't get burned!"
+    ]
+  },
+  "fog": {
+    "compliments": [
+        "drive safe!",
+        "lookout for zombies!"
+     ]
+  },
+  "rain":{
+    "compliments":[
+        "drive safe!",
+        "don't forget your umbrella!",
+        "got a rainjacket?",
+        "make sure your wipers work!"
+    ]
+  },
+  "storm":{
+    "compliments":[
+        "watch out for lightning!",
+        "how's the thunder?",
+        "sun should be out after this",
+        "stay dry!"
+    ]
+  }
+}
