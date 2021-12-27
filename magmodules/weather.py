@@ -55,6 +55,7 @@ def get_forecast():
         temp['humidity'] = f'{i["humidity"]}%'
 
         forecast.append(temp)
+        
     print(forecast)
 
 def kelvcon(x):
