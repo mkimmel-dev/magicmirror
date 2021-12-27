@@ -2,8 +2,8 @@ import os
 from pyowm import OWM
 import datetime
 import random
-weatherkey = os.environ['WEATHER']
-location = os.environ['LOCATION']
+weatherkey = '52ef17c768bee3262accfbd50ce1b6ee'
+location = 'washington, d.c., us'
 
 compliments = {
   "day": {
@@ -13,7 +13,7 @@ compliments = {
       "lookin good!",
       "get after it!",
       "go get some tacos",
-      "how\u0027s Stitch doing?",
+      "hows Stitch doing?",
       "hungry for lunch?",
       "Yo!"
     ]

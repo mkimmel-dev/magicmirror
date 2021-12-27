@@ -23,22 +23,21 @@ class homepage(Resource):
         print('home')
 
 
-
 @ns.route('/modules/compliments', methods = ['GET'])
 class moduleCompliments(Resource):
     def get(self):
         return jsonify(magmodules.get_compliment())
 
-@ns.route('/modules/weather', methods = ['POST'])
-class moduleCompliments(Resource):
-    def get(self): 
-        return jsonify()
-
-@ns.route('/modules/spotify', methods = ['POST'])
-class moduleCompliments(Resource):
+@ns.route('/modules/weather', methods = ['GET'])
+class moduleWeather(Resource):
     def get(self):
-        return jsonify()
+        return jsonify(magmodules.get_weather())
+
+@ns.route('/modules/forecast', methods = ['GET'])
+class moduleForecast(Resource):
+    def get(self):
+        return jsonify(magmodules.get_forecast())
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port = 5000)
+    app.run(debug=True, host='0.0.0.0', port = 1407, threaded = True)
